@@ -1,0 +1,17 @@
+{
+  "name": "Steam Level Grabber",
+  "description": "Extract level from steam profile",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "debugger",
+    "*://*.steampowered.com/*",
+    "*://steamcommunity.com/*"
+  ],
+  "background": {}
+}
